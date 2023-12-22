@@ -3,8 +3,8 @@ import time
 import subprocess
 
 # Define your links and corresponding times
-links = ["https://www.twitch.tv/DisguisedToast", "https://www.twitch.tv/mrwobblestwitch", "https://www.twitch.tv/Krolay", "https://www.twitch.tv/Nikof", "https://www.twitch.tv/coconutb"]
-times = ["19:44", "21:45", "23:47", "25:49", "27:50"]
+links = ["https://www.twitch.tv/TWITCHCHANNELLINK", "https://www.twitch.tv/TWITCHCHANNELLINK", "https://www.twitch.tv/TWITCHCHANNELLINK"]
+times = ["19:45", "21:46", "23:48"]
 
 # Convert times to seconds since midnight
 time_seconds = [int(h) * 3600 + int(m) * 60 for h, m in (t.split(':') for t in times)]
